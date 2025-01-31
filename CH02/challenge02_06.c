@@ -4,10 +4,11 @@
 // January 2025
 #include <stdio.h>
 
-int main()
+int main(void)
 {
   int a = 12;
-  char const b = 'Z' printf("Here is the value of A: %d\n", a);
+  char const b = 'Z' ;
+  printf("Here is the value of A: %d\n", a);
   printf("Here is the value of B: %c\n", b);
 
   return (0);
